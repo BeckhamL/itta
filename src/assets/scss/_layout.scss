@@ -1,0 +1,54 @@
+// xs = 'screen and (max-width: 599px)'
+// sm = 'screen and (min-width: 600px) and (max-width: 959px)'
+// md = 'screen and (min-width: 960px) and (max-width: 1279px)'
+
+._flex {
+    display: flex;
+  }
+  
+  ._flex_col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ._flex_align_item_center {
+    align-items: center;
+  }
+  
+  ._flex_align_item_start {
+    align-items: flex-start;
+  }
+  
+  ._space_between {
+    justify-content: space-between;
+  }
+  
+  ._space_around {
+    justify-content: space-around;
+  }
+  
+  ._space_evenly {
+    justify-content: space-evenly;
+  }
+  
+  ._justify_start {
+    justify-content: flex-start;
+  }
+  
+  ._justify_center {
+    justify-content: center;
+  }
+  
+  ._justify_end {
+    justify-content: flex-end;
+  }
+  
+  ._flex_wrap {
+    flex-wrap: wrap;
+  }
+  
+  ._ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

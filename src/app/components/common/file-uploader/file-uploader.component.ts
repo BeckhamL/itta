@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FileUploaderComponent implements OnInit {
 
+  myReader: FileReader = new FileReader();
   constructor() { }
 
   ngOnInit() {
@@ -14,6 +15,10 @@ export class FileUploaderComponent implements OnInit {
 
   csvInputChange(fileInputEvent: any) {
     console.log(fileInputEvent.target.files[0]);
+    // this.myReader.onloadend = () => {
+    //   console.log(this.myReader.result);
+    // }
   }
+
 
 }
